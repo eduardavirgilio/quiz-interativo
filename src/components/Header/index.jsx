@@ -3,13 +3,6 @@ import React, { useState, useEffect } from 'react';
 
 export default function Header() {
 
-// numero da questão atual e da quantidade total de questões
-
-  const numeroQuestaoAtual = 1;
-  const totalQuestoes = 10;
-  
-  const textoQuestao = `Questão ${numeroQuestaoAtual} de ${totalQuestoes}`;
-
   const [segundos, setSegundos] = useState(0);
 
 // cronometro
@@ -43,8 +36,6 @@ export default function Header() {
     <header className={styles.header}>
 
       <h1 className={styles.textHeader}>Quiz Interativo</h1>
-      
-      <p className={styles.textHeader}>{textoQuestao}</p>
 
       <p className={styles.textHeader}>⏱ Tempo: {formatarTempo(segundos)}</p>
 
