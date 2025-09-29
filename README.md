@@ -10,7 +10,7 @@ O quiz é organizado em três componentes principais:
 
 ### 1. `Header` 
 
-Este é o componente que gerencia **o cabeçalho** do quiz, mostrando quanto tempo o usuário está no quiz.
+Este é o componente que gerencia **o cabeçalho** do quiz, mostrando quanto tempo o usuário está na questão.
 
 ### 2. `QuestionCard` 
 
