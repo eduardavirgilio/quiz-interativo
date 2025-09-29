@@ -1,0 +1,17 @@
+*{
+    padding: 10px;
+}
+.header{
+    background-color: pink;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    align-content: center;
+    justify-items: center;
+    font-weight: bold;
+}
+
+.textHeader{
+    text-align: center;
+}

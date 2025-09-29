@@ -41,11 +41,11 @@ export default function Header() {
   return (
 
     <header className={styles.header}>
-      <h1>Quiz Interativo</h1>
+      <h1 className={styles.textHeader}>Quiz Interativo</h1>
       
-      <p>{textoQuestao}</p>
+      <p className={styles.textHeader}>{textoQuestao}</p>
 
-      <p>Tempo: {formatarTempo(segundos)}</p>
+      <p className={styles.textHeader}>⏱ Tempo: {formatarTempo(segundos)}</p>
 
     </header>
   )
