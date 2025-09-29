@@ -5,10 +5,10 @@ import QuestionCard from './components/QuestionCard'
 function App() {
 
   return (
-    <>
+    <div>
      <Header/>
      <QuestionCard/>
-    </>
+    </div>
   )
 }
 

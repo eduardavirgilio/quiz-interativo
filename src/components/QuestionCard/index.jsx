@@ -8,7 +8,7 @@ export default function QuestionCard() {
   const questaoAtual = questions[0]; 
 
   return (
-    <div>
+    <div className={styles.main}>
       {/* enunciado da questão */}
       <h2>{questaoAtual.question}</h2>
 
@@ -20,7 +20,7 @@ export default function QuestionCard() {
           
           <button 
             key={index} 
-            className="opcao-button"
+            className={styles.button}
             onClick={() => console.log('Opção selecionada:', opcao)} // mostrando no console a opção selecionada
           >
             {/* texto do botão */}
@@ -32,10 +32,4 @@ export default function QuestionCard() {
     </div>
   );
     
-
-    return (
-        <main className={styles.main}>
-    
-        </main>
-    )
 }
