@@ -41,6 +41,7 @@ export default function Header() {
   return (
 
     <header className={styles.header}>
+
       <h1 className={styles.textHeader}>Quiz Interativo</h1>
       
       <p className={styles.textHeader}>{textoQuestao}</p>
