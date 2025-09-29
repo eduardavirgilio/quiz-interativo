@@ -1,16 +1,41 @@
-# React + Vite
+# 🕹️ Quiz interativo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma implementação de um quiz interativo construído em React, desenvolvido com base nos projetos anteriores e de forma modular.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Estrutura do Projeto e Componentes
 
-## React Compiler
+O quiz é organizado em três componentes principais:
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. `Header` 
 
-## Expanding the ESLint configuration
+Este é o componente que gerencia **o cabeçalho** do quiz, mostrando quanto tempo o usuário está no quiz.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. `QuestionCard` 
+
+Este componente é responsável por retornar as questões e suas opções para o usuário selecionar, além de mostrar em qual questão ele está.
+
+### 3. `ScoreBoard` 
+
+Este componente retorna o resultado do quiz, mostrando as questões que estavam certas e erradas, além de um relatório mostrando a pontuação total, o menor tempo e a quantidade de acertos. 
+
+### 4. `questions.js` 
+
+Uma função que recebe o array com todos os dados de cada questão (enunciado, opções, pontuação, resposta correta e id)
+
+---
+
+## Primeiros Passos para executar o projeto
+
+1.  Clone o repositório.
+
+2.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+    
+3.  Execute o projeto:
+    ```bash
+    npm run dev
+    ```
