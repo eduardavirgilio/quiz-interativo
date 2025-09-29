@@ -1,6 +1,6 @@
 # 🕹️ Quiz interativo
 
-Este projeto é uma implementação de um quiz interativo construído em React, desenvolvido com base nos projetos anteriores e de forma modular.
+Este projeto é uma implementação de um quiz interativo construído em React, desenvolvido com base nos projetos anteriores trabalhados em aula e de forma modular.
 
 ---
 
@@ -34,7 +34,7 @@ Uma função que recebe o array com todos os dados de cada questão (enunciado, 
     ```bash
     npm install
     ```
-    
+
 3.  Execute o projeto:
     ```bash
     npm run dev
